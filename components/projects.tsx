@@ -11,16 +11,16 @@ const projects = [
     technologies: ["Spring Boot (Java)", "React", "TailwindCSS", "MySQL", "Git", "Railway"],
     githubUrl: "", // Deja vacío si no quieres mostrar el repo
     liveUrl: "", // Agrega la URL de la demo aquí
-    image: "/public/DNCompras.jpg",
+    image: "/DNCompras.jpg",
   },
   {
     title: "Expense Tracker",
     description:
-      "Este proyecto modela y simula escenarios de ausentismo dentro de un entorno industrial utilizando la simulacion de Montecarlo, con el objetivo de analizar el impacto del faltante de personal en la operación. Permite ejecutar múltiples corridas para observar estadísticas relevantes (promedios, distribuciones, tiempos, etc.).",
-    technologies: ["React", "Node.js", "MongoDB"],
+      "Aplicación web diseñada para la gestión integral de finanzas personales, permitiendo el registro, edición y categorización de transacciones en tiempo real. Cuenta con un dashboard interactivo y gráficos dinámicos que facilitan el análisis visual de los hábitos de consumo y el estado del balance financiero.",
+    technologies: ["React", "Node.js", "Express.js","MongoDB"],
     githubUrl: "https://github.com/facudelboca/gestorgastos",
     liveUrl: "",
-    image: "/public/expensetracker.jpg",
+    image: "/expensetracker.jpg",
   },
   {
     title: "Web empresa constructora",
@@ -29,16 +29,16 @@ const projects = [
     technologies: ["Javascript", "Git", "Bootstrap", "HTML", "CSS"],
     githubUrl: "",
     liveUrl: "https://grupo-denovo.com/",
-    image: "/public/Pagina-denovo.jpg",
+    image: "/Pagina-denovo.jpg",
   },
   {
     title: "Simulación de Ausentismo Laboral en una Línea de Producción",
     description:
-      "Este proyecto modela y simula escenarios de ausentismo dentro de un entorno industrial utilizando la simulacion de Montecarlo, con el objetivo de analizar el impacto del faltante de personal en la operación. Permite ejecutar múltiples corridas para observar estadísticas relevantes (promedios, distribuciones, tiempos, etc.).",
+      "Este proyecto académico aplica la simulación de Montecarlo para modelar escenarios de ausentismo en un entorno industrial. Diseñado como parte de la currícula universitaria, permite analizar el impacto del faltante de personal mediante la ejecución de múltiples corridas y la recolección de estadísticas relevantes.",
     technologies: ["C#", "WinForms", ".NET"],
     githubUrl: "https://github.com/facudelboca/TP3-Simulacion",
     liveUrl: "",
-    image: "/public/TPSim.jpg",
+    image: "/TPSim.jpg",
   },
 ]
 
