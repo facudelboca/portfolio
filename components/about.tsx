@@ -14,7 +14,7 @@ export function About() {
               desarrollo.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Con experiencia en desarrollo full-stack, disfruto trabajando tanto en el frontend como en el backend,
+              Con experiencia en desarrollo full-stack, trabajando tanto en el frontend como en el backend,
               siempre buscando las mejores soluciones para cada proyecto.
             </p>
           </div>

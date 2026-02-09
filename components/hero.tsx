@@ -6,6 +6,13 @@ export function Hero() {
     <section id="hero" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-32">
       <div className="container mx-auto max-w-5xl text-center">
         <div className="animate-fade-in-up">
+        <div className="mb-8 relative inline-block">
+            <img
+              src="/Foto.jpg"
+              alt="Facundo Del Boca"
+              className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-accent/20 shadow-xl mx-auto"
+            />
+          </div>
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-foreground mb-6 text-balance tracking-tight">
             Facundo Del Boca
           </h1>
