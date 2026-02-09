@@ -10,7 +10,7 @@ export function Hero() {
             <img
               src="/Foto.jpg"
               alt="Facundo Del Boca"
-              className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-accent/20 shadow-xl mx-auto"
+              className="w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover border-4 border-accent/20 shadow-xl mx-auto"
             />
           </div>
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-foreground mb-6 text-balance tracking-tight">
