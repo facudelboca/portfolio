@@ -33,7 +33,7 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-            {["React", "Node.js", "TypeScript", "Python", "Java", "Docker", "AWS"].map((tech) => (
+            {["React", "Java", "TypeScript", "Python", "Node.js", "Docker", "AWS"].map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-2 rounded-full border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-colors"

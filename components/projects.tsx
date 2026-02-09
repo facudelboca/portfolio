@@ -11,9 +11,26 @@ const projects = [
     technologies: ["Spring Boot (Java)", "React", "TailwindCSS", "MySQL", "Git", "Railway"],
     githubUrl: "", // Deja vacío si no quieres mostrar el repo
     liveUrl: "", // Agrega la URL de la demo aquí
-    image: "/DNCompras.jpg",
+    image: "/public/DNCompras.jpg",
   },
-
+  {
+    title: "Expense Tracker",
+    description:
+      "Este proyecto modela y simula escenarios de ausentismo dentro de un entorno industrial utilizando la simulacion de Montecarlo, con el objetivo de analizar el impacto del faltante de personal en la operación. Permite ejecutar múltiples corridas para observar estadísticas relevantes (promedios, distribuciones, tiempos, etc.).",
+    technologies: ["React", "Node.js", "MongoDB"],
+    githubUrl: "https://github.com/facudelboca/gestorgastos",
+    liveUrl: "",
+    image: "/public/expensetracker.jpg",
+  },
+  {
+    title: "Web empresa constructora",
+    description:
+      "Desarrollo de sitio web responsive para la empresa constructora De Novo, implementado con HTML, CSS y JavaScript, optimizando rendimiento y usabilidad",
+    technologies: ["Javascript", "Git", "Bootstrap", "HTML", "CSS"],
+    githubUrl: "",
+    liveUrl: "https://grupo-denovo.com/",
+    image: "/public/Pagina-denovo.jpg",
+  },
   {
     title: "Simulación de Ausentismo Laboral en una Línea de Producción",
     description:
@@ -21,7 +38,7 @@ const projects = [
     technologies: ["C#", "WinForms", ".NET"],
     githubUrl: "https://github.com/facudelboca/TP3-Simulacion",
     liveUrl: "",
-    image: "/TPSim.jpg",
+    image: "/public/TPSim.jpg",
   },
 ]
 
@@ -76,7 +93,7 @@ export function Projects() {
                     <Button variant="outline" size="sm" asChild className="flex-1 bg-transparent">
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
-                        Demo
+                        Ver más
                       </a>
                     </Button>
                   ) : (

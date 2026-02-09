@@ -6,7 +6,7 @@ const education = [
     degree: "Ingeniería en Sistemas de Información",
     institution: "Universidad Tecnológica Nacional",
     period: "2021 - Presente",
-    description: "Estudiante de quinto año - Materias aprobadas: 35/43",
+    description: "Estudiante de quinto año - Materias aprobadas: 40/43",
   },
   {
     degree: "Bachiller en Lenguas",

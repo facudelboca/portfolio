@@ -8,7 +8,7 @@ const certifications = [
     name: "Certificate in Advanced English (CAE) - Nivel C1",
     issuer: "Cambridge English",
     date: "2020",
-    credentialUrl: "#",
+    credentialUrl: "/public/StatementOfResult.pdf",
   },
 
   {
@@ -16,6 +16,12 @@ const certifications = [
     issuer: "Udemy",
     date: "2025",
     credentialUrl: "https://www.udemy.com/certificate/UC-87d67d79-25be-4a23-aef5-6f8c53bc0055/",
+  },
+  {
+    name: "Introduccion a la Ciberseguridad",
+    issuer: "Cisco",
+    date: "2025",
+    credentialUrl: "/public/Ciberseguridad.pdf",
   },
 
 
