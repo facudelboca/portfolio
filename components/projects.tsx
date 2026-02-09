@@ -83,10 +83,11 @@ export function Projects() {
                       </a>
                     </Button>
                   ) : (
-                    <Button variant="outline" size="sm" disabled className="flex-1 bg-transparent">
-                      <Github className="mr-2 h-4 w-4" />
-                      Código no disponible
-                    </Button>
+                    //<Button variant="outline" size="sm" disabled className="flex-1 bg-transparent">
+                      //<Github className="mr-2 h-4 w-4" />
+                      //Código no disponible
+                    //</Button>
+                    <div></div>
                   )}
 
                   {project.liveUrl ? (
@@ -97,10 +98,11 @@ export function Projects() {
                       </a>
                     </Button>
                   ) : (
-                    <Button variant="outline" size="sm" disabled className="flex-1 bg-transparent">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo no disponible
-                    </Button>
+                    //<Button variant="outline" size="sm" disabled className="flex-1 bg-transparent">
+                      //<ExternalLink className="mr-2 h-4 w-4" />
+                      //Demo no disponible
+                    //</Button>
+                    <div></div>
                   )}
                 </div>
               </div>
