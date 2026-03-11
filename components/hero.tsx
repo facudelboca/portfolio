@@ -10,7 +10,7 @@ export function Hero() {
             <img
               src="/Foto.jpg"
               alt="Facundo Del Boca"
-              className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-accent/20 shadow-xl mx-auto"
+              className="w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full object-cover border-4 border-accent/20 shadow-xl mx-auto"
             />
           </div>
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-foreground mb-6 text-balance tracking-tight">
@@ -38,6 +38,18 @@ export function Hero() {
               <a href="#about">Contactar Ahora</a>
             </Button>
           </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
+            {["React", "Java", "TypeScript", "Python", "Node.js", "Docker", "AWS"].map((tech) => (
+              <span
+                key={tech}
+                className="px-4 py-2 rounded-full border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-colors"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+
           <div className="flex items-center justify-center gap-4">
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
               <a href="https://github.com/facudelboca" target="_blank" rel="noopener noreferrer">
