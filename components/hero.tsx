@@ -38,18 +38,6 @@ export function Hero() {
               <a href="#about">Contactar Ahora</a>
             </Button>
           </div>
-
-          <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-            {["React", "Java", "TypeScript", "Python", "Node.js", "Docker", "AWS"].map((tech) => (
-              <span
-                key={tech}
-                className="px-4 py-2 rounded-full border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-colors"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-
           <div className="flex items-center justify-center gap-4">
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
               <a href="https://github.com/facudelboca" target="_blank" rel="noopener noreferrer">

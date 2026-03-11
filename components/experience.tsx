@@ -4,12 +4,15 @@ import { Briefcase } from "lucide-react"
 
 const experiences = [
   {
-    title: "Desarrollo Web",
-    company: "Grupo Denovo",
-    period: "Nvoiembre 2020 - Abril 2021",
-    description:
-      "Desarrollo de sitio web responsive para la empresa constructora De Novo, implementado con HTML, CSS y JavaScript, optimizando rendimiento y usabilidad",
-    technologies: ["HTML", "CSS", "Javascript", "Git", "Bootstrap"],
+    title: "Desarrollador de Software Freelance",
+    company: "Independiente",
+    period: "Julio 2025 - Presente",
+        description: [
+      "Desarrollo y mantenimiento del sitio web corporativo de una empresa constructora utilizando HTML, CSS y JavaScript. Implementación de mejoras visuales y funcionales orientadas a la experiencia del usuario.",
+      "Diseño y desarrollo integral de sistema de compras para una empresa constructora. Construido desde cero utilizando Java y Spring Boot para el backend, garantizando una API REST robusta y segura.",
+      "Desarrollo Fullstack de un e-commerce. Creación del cliente web y despliegue de infraestructura backend con Firebase, programando flujos a medida y funciones en la nube con Node.js."
+    ],
+    technologies: ["HTML", "CSS", "Javascript", "Git", "Bootstrap", "Java", "Spring Boot", "Node.js", "Firebase"],
   }
 ]
 
@@ -33,7 +36,11 @@ export function Experience() {
                 <span className="text-sm text-muted-foreground whitespace-nowrap">{exp.period}</span>
               </div>
 
-              <p className="text-muted-foreground leading-relaxed mb-4">{exp.description}</p>
+              <ul className="list-disc list-outside ml-5 text-muted-foreground leading-relaxed mb-4 space-y-2">
+                {exp.description.map((desc, i) => (
+                  <li key={i}>{desc}</li>
+                ))}
+              </ul>
 
               <div className="flex flex-wrap gap-2">
                 {exp.technologies.map((tech) => (
