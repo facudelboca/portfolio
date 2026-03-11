@@ -6,7 +6,7 @@ export function Hero() {
     <section id="hero" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-32">
       <div className="container mx-auto max-w-5xl text-center">
         <div className="animate-fade-in-up">
-        <div className="mb-8 relative inline-block">
+          <div className="mb-8 relative inline-block">
             <img
               src="/Foto.jpg"
               alt="Facundo Del Boca"
@@ -38,18 +38,6 @@ export function Hero() {
               <a href="#about">Contactar Ahora</a>
             </Button>
           </div>
-
-          <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-            {["React", "Java", "TypeScript", "Python", "Node.js", "Docker", "AWS"].map((tech) => (
-              <span
-                key={tech}
-                className="px-4 py-2 rounded-full border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-colors"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-
           <div className="flex items-center justify-center gap-4">
             <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
               <a href="https://github.com/facudelboca" target="_blank" rel="noopener noreferrer">
