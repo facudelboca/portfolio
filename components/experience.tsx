@@ -4,15 +4,26 @@ import { Briefcase } from "lucide-react"
 
 const experiences = [
   {
+    title: "Trainee Backend Developer",
+    company: "Kenility (Córdoba, Argentina)",
+    period: "Mayo 2026 - Presente",
+    description: [
+      "Participé en el proceso de migración de un sistema monolítico hacia una arquitectura de microservicios, integrando un equipo enfocado en un servicio específico del dominio.",
+      "Desarrollé y mantuve APIs REST, colaborando en la implementación de endpoints, resolución de bugs y tareas de refactorización.",
+      "Colaboré en la integración con bases de datos y en el aseguramiento de buenas prácticas de código dentro de un entorno de trabajo ágil."
+    ],
+    technologies: ["Java", "Spring Boot", "Microservicios", "APIs RESTful", "Bases de Datos", "Git", "Metodologías Ágiles"],
+  },
+  {
     title: "Desarrollador de Software Freelance",
     company: "Independiente",
-    period: "Julio 2025 - Presente",
-        description: [
-      "Desarrollo y mantenimiento del sitio web corporativo de una empresa constructora utilizando HTML, CSS y JavaScript. Implementación de mejoras visuales y funcionales orientadas a la experiencia del usuario.",
-      "Diseño y desarrollo integral de sistema de compras para una empresa constructora. Construido desde cero utilizando Java y Spring Boot para el backend, garantizando una API REST robusta y segura.",
-      "Desarrollo Fullstack de un e-commerce. Creación del cliente web y despliegue de infraestructura backend con Firebase, programando flujos a medida y funciones en la nube con Node.js."
+    period: "Septiembre 2025 - Marzo 2026",
+    description: [
+      "Sitio Web Corporativo (Empresa Constructora): Desarrollo y mantenimiento, implementando mejoras visuales y funcionales orientadas a la experiencia de usuario y optimización del sitio (grupo-denovo.com).",
+      "Sistema de Compras (Empresa Constructora): Diseño y desarrollo integral de un sistema interno desde cero. Construcción del backend con Java y Spring Boot, garantizando una API REST robusta y segura.",
+      "Plataforma E-commerce: Desarrollo Full Stack del cliente web e infraestructura backend sobre Firebase. Programación de flujos a medida y funciones serverless/cloud con Node.js (www.shim.com.ar)."
     ],
-    technologies: ["HTML", "CSS", "Javascript", "Git", "Bootstrap", "Java", "Spring Boot", "Node.js", "Firebase"],
+    technologies: ["Java", "Spring Boot", "Node.js", "Firebase", "APIs RESTful", "HTML", "CSS", "Javascript", "Git"],
   }
 ]
 

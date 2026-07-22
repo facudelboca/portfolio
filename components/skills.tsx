@@ -4,20 +4,20 @@ import { Code2 } from "lucide-react"
 
 const skillCategories = [
   {
-    category: "Frontend",
-    skills: ["Javascript", "React", "HTML/CSS", "Tailwind CSS", "TypeScript"],
-  },
-  {
     category: "Backend",
-    skills: ["Java", "Spring", "Python", "Node.js", "MongoDB", "MySQL"],
+    skills: ["Java", "Spring Boot", "Microservicios", "Node.js", "APIs RESTful", "MySQL", "MongoDB", "Firebase"],
   },
   {
-    category: "DevOps & Tools",
-    skills: ["Git", "Docker", "CI/CD", "Linux", "Vercel"],
+    category: "DevOps & Herramientas",
+    skills: ["Git", "Docker", "CI/CD", "Linux", "Railway", "Vercel"],
+  },
+  {
+    category: "Frontend",
+    skills: ["JavaScript", "React", "HTML5/CSS3", "Tailwind CSS", "Bootstrap", "TypeScript"],
   },
   {
     category: "Otros",
-    skills: ["REST APIs", "Testing", "Agile/Scrum", "UI/UX"],
+    skills: ["Metodologías Ágiles", "Scrum", "Testing", "Modelado de Datos", "Arquitectura de Software"],
   },
 ]
 

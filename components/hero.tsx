@@ -16,9 +16,9 @@ export function Hero() {
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-foreground mb-6 text-balance tracking-tight">
             Facundo Del Boca
           </h1>
-          <p className="text-2xl sm:text-3xl text-muted-foreground mb-6">Desarrollador Full Stack</p>
+          <p className="text-2xl sm:text-3xl text-muted-foreground mb-6">Backend Developer Junior</p>
           <p className="text-lg sm:text-xl text-accent font-medium max-w-3xl mx-auto mb-12 leading-relaxed">
-            Apasionado por crear experiencias digitales excepcionales. Curioso por aprender y mejorar día a día.
+            Estudiante de Ingeniería en Sistemas enfocado en el desarrollo Backend con Java (Spring Boot) y Node.js. Apasionado por la creación de APIs REST eficientes y soluciones de software escalables.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12">

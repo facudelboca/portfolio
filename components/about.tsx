@@ -8,14 +8,10 @@ export function About() {
         <Card className="p-6 sm:p-8">
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Soy un estudiante avanzado de Ingeniería en Sistemas de Información, actualmente cursando quinto año.
-              Apasionado por la tecnología y cómo nos ayuda a facilitar la vida de las personas, busco una oportunidad
-              para seguir creciendo profesionalmente, aprendiendo y aportando valor siendo parte de un equipo de
-              desarrollo.
+              Estudiante de último año de Ingeniería en Sistemas de Información (UTN FRC) enfocado en el desarrollo Backend con Java (Spring Boot) y Node.js. Me enfoco en el desarrollo de APIs REST eficientes, el modelado de datos y la resolución de problemas mediante soluciones de software escalables.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Con experiencia en desarrollo full-stack, trabajando tanto en el frontend como en el backend,
-              siempre buscando las mejores soluciones para cada proyecto.
+              Cuento con experiencia práctica desarrollando sistemas en producción tanto en empresas de software (Kenility) como en proyectos independientes (freelance).
             </p>
           </div>
         </Card>

@@ -4,15 +4,15 @@ import { GraduationCap } from "lucide-react"
 const education = [
   {
     degree: "Ingeniería en Sistemas de Información",
-    institution: "Universidad Tecnológica Nacional",
-    period: "2021 - Presente",
-    description: "Estudiante de quinto año - Materias aprobadas: 40/43",
+    institution: "Universidad Tecnológica Nacional (UTN FRC)",
+    period: "Marzo de 2021 - Diciembre de 2026",
+    description: "Estudiante de último año de la carrera.",
   },
   {
-    degree: "Bachiller en Lenguas",
-    institution: "Colegio Cinco Rios",
-    period: "2015 - 2020",
-    description: "Formación Bilingüe",
+    degree: "High School Diploma",
+    institution: "Cinco Ríos - Colegio Bilingüe",
+    period: "Marzo de 2009 - Diciembre de 2020",
+    description: "Educación secundaria con orientación bilingüe y plurilingüe.",
   },
 ]
 
