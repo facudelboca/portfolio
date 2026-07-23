@@ -7,38 +7,29 @@ const projects = [
   {
     title: "Sistema de compras",
     description:
-      "Sistema web de gestión de compras para una empresa constructora, que permite registrar y controlar pedidos de materiales, subir remitos y archivos, y enviar notificaciones automáticas por email.",
+      "Sistema web para una constructora que optimiza la cadena de suministros mediante el control de pedidos, digitalización de remitos y automatización de alertas por correo para agilizar el flujo de trabajo.",
     technologies: ["Spring Boot (Java)", "React", "TailwindCSS", "MySQL", "Git", "Railway"],
     githubUrl: "", // Deja vacío si no quieres mostrar el repo
     liveUrl: "", // Agrega la URL de la demo aquí
-    image: "/DNCompras.jpg",
+    image: "/p-compras.jpg",
+  },
+    {
+    title: "SHIM E-commerce",
+    description:
+      "E-commerce para indumentaria médica con catálogo de variantes, personalización de bordados y cotización automática de logística. Incluye checkout seguro y un panel administrativo con analíticas en tiempo real.",
+    technologies: ["React", "Node.js", "Cloud Firestore (NoSQL)", "Firebase", "Vite", "Git", "Cloudflare"],
+    githubUrl: "",
+    liveUrl: "https://www.shim.com.ar/",
+    image: "/p-shim.jpg",
   },
   {
-    title: "Expense Tracker",
+    title: "Gestor de gastos",
     description:
-      "Aplicación web diseñada para la gestión integral de finanzas personales, permitiendo el registro, edición y categorización de transacciones en tiempo real. Cuenta con un dashboard interactivo y gráficos dinámicos que facilitan el análisis visual de los hábitos de consumo y el estado del balance financiero.",
-    technologies: ["React", "Node.js", "Express.js","MongoDB"],
+      "Aplicación de finanzas personales que registra, edita y categoriza transacciones en tiempo real. Cuenta con gráficos interactivos y un dashboard dinámico para el análisis visual del balance financiero.",
+    technologies: ["Spring Boot (Java)", "PostgreSQL","React", "Docker", "Git"],
     githubUrl: "https://github.com/facudelboca/gestorgastos",
     liveUrl: "",
-    image: "/expensetracker.jpg",
-  },
-  {
-    title: "Web empresa constructora",
-    description:
-      "Desarrollo de sitio web responsive para la empresa constructora De Novo, implementado con HTML, CSS y JavaScript, optimizando rendimiento y usabilidad",
-    technologies: ["Javascript", "Git", "Bootstrap", "HTML", "CSS"],
-    githubUrl: "",
-    liveUrl: "https://grupo-denovo.com/",
-    image: "/Pagina-denovo.jpg",
-  },
-  {
-    title: "Simulación de Ausentismo Laboral en una Línea de Producción",
-    description:
-      "Este proyecto académico aplica la simulación de Montecarlo para modelar escenarios de ausentismo en un entorno industrial. Diseñado como parte de la currícula universitaria, permite analizar el impacto del faltante de personal mediante la ejecución de múltiples corridas y la recolección de estadísticas relevantes.",
-    technologies: ["C#", "WinForms", ".NET"],
-    githubUrl: "https://github.com/facudelboca/TP3-Simulacion",
-    liveUrl: "",
-    image: "/TPSim.jpg",
+    image: "/p-gastos.jpg",
   },
 ]
 
@@ -53,12 +44,12 @@ export function Projects() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {projects.map((project, index) => (
-            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="aspect-video w-full overflow-hidden bg-muted">
+            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow pt-0 pb-0 gap-0">
+              <div className="aspect-[1534/695] w-full overflow-hidden bg-muted">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover block"
                 />
               </div>
 

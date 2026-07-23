@@ -13,6 +13,7 @@ const navItems = [
   { name: "Idiomas", href: "#languages" },
   { name: "Habilidades", href: "#skills" },
   { name: "Proyectos", href: "#projects" },
+  { name: "Contacto", href: "#contact" },
 ]
 
 export function Navigation() {
