@@ -15,7 +15,7 @@ export function Hero() {
               Desarrollador Backend Junior
             </p>
             <p className="text-lg sm:text-xl text-accent font-medium max-w-2xl mb-8 leading-relaxed">
-              Estudiante de Ingeniería en Sistemas enfocado en el desarrollo Backend con Java (Spring Boot) y Node.js. Apasionado por la creación de APIs REST eficientes y soluciones de software escalables.
+              Desarrollador Backend enfocado en el diseño de APIs y soluciones de software utilizando Java (Spring Boot) y Node.js.
             </p>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-8 w-full">

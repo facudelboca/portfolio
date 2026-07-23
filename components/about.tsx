@@ -8,10 +8,10 @@ export function About() {
         <Card className="p-6 sm:p-8">
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Estudiante de último año de Ingeniería en Sistemas de Información (UTN FRC) enfocado en el desarrollo Backend con Java (Spring Boot) y Node.js. Me enfoco en el desarrollo de APIs REST eficientes, el modelado de datos y la resolución de problemas mediante soluciones de software escalables.
+              Estudiante de último año de Ingeniería en Sistemas de Información (UTN FRC) con inglés avanzado (C1). Actualmente me desempeño como desarrollador en Kenility, colaborando en la migración de sistemas monolíticos a microservicios.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Cuento con experiencia práctica desarrollando sistemas en producción tanto en empresas de software (Kenility) como en proyectos independientes (freelance).
+              Además, cuento con trayectoria en el desarrollo de proyectos independientes Full Stack, diseñando soluciones a medida desde el modelado de bases de datos hasta la integración de pasarelas de pago y logística.
             </p>
           </div>
         </Card>
