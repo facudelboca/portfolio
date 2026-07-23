@@ -4,7 +4,7 @@ import { Briefcase } from "lucide-react"
 
 const experiences = [
   {
-    title: "Trainee Backend Developer",
+    title: "Desarrollador Backend Trainee",
     company: "Kenility (Córdoba, Argentina)",
     period: "Mayo 2026 - Presente",
     description: [
@@ -15,7 +15,7 @@ const experiences = [
     technologies: ["Java", "Spring Boot", "Microservicios", "APIs RESTful", "Bases de Datos", "Git", "Metodologías Ágiles"],
   },
   {
-    title: "Desarrollador de Software Freelance",
+    title: "Desarrollador Full Stack Freelance",
     company: "Independiente",
     period: "Septiembre 2025 - Marzo 2026",
     description: [

@@ -12,7 +12,7 @@ export function Hero() {
               Facundo Del Boca
             </h1>
             <p className="text-2xl sm:text-3xl text-muted-foreground mb-6 font-medium">
-              Backend Developer Junior
+              Desarrollador Backend Junior
             </p>
             <p className="text-lg sm:text-xl text-accent font-medium max-w-2xl mb-8 leading-relaxed">
               Estudiante de Ingeniería en Sistemas enfocado en el desarrollo Backend con Java (Spring Boot) y Node.js. Apasionado por la creación de APIs REST eficientes y soluciones de software escalables.
@@ -56,7 +56,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/CV_Facundo_Del_Boca.pdf" target="_blank" rel="noopener noreferrer">
                   <FileText className="h-6 w-6" />
                   <span className="sr-only">CV</span>
                 </a>

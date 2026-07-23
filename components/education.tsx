@@ -6,13 +6,13 @@ const education = [
     degree: "Ingeniería en Sistemas de Información",
     institution: "Universidad Tecnológica Nacional (UTN FRC)",
     period: "Marzo de 2021 - Diciembre de 2026",
-    description: "Estudiante de último año de la carrera.",
+    description: "Estudiante de último año de la carrera. Promedio general: 8,48",
   },
   {
-    degree: "High School Diploma",
-    institution: "Cinco Ríos - Colegio Bilingüe",
+    degree: "Bachiller en Lenguas (Formación Bilingüe)",
+    institution: "Colegio Cinco Ríos",
     period: "Marzo de 2009 - Diciembre de 2020",
-    description: "Educación secundaria con orientación bilingüe y plurilingüe.",
+    description: "",
   },
 ]
 
