@@ -23,6 +23,15 @@ const projects = [
     image: "/p-shim.jpg",
   },
   {
+    title: "Planificador de menús",
+    description:
+      "Planificador de menú semanal y lista de compras inteligente. Permite diseñar planes de alimentación, consolidar ingredientes automáticamente mediante equivalencias de unidades y previsualizar e importar recetas internacionales traducidas al español en tiempo real.",
+    technologies: ["React", "Node.js (Express)", "PostgreSQL", "Prisma ORM", "Vercel", "Git"],
+    githubUrl: "https://github.com/facudelboca/mealcrafter",
+    liveUrl: "https://mealcrafter.vercel.app",
+    image: "/p-mealcrafter.jpg",
+  },
+  {
     title: "Gestor de gastos",
     description:
       "Aplicación de finanzas personales que registra, edita y categoriza transacciones en tiempo real. Cuenta con gráficos interactivos y un dashboard dinámico para el análisis visual del balance financiero.",
