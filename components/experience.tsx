@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Desarrollador Backend Trainee",
     company: "Kenility (Córdoba, Argentina)",
-    period: "Mayo 2026 - Presente",
+    period: "Mayo 2026 - Agosto 2026",
     description: [
       "Participé en el proceso de migración de un sistema monolítico hacia una arquitectura de microservicios, integrando un equipo enfocado en un servicio específico del dominio.",
       "Desarrollé y mantuve APIs REST, colaborando en la implementación de endpoints, resolución de bugs y tareas de refactorización.",
