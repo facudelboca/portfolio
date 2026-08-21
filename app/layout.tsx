@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { PHProvider, PostHogPageview } from "./providers"
 import "./globals.css"
 
 const _inter = Inter({ subsets: ["latin"] })
@@ -21,8 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased ${_inter.className}`} suppressHydrationWarning>
-        {children}
-        <Analytics />
+        <PHProvider>
+          <PostHogPageview />
+          {children}
+          <Analytics />
+        </PHProvider>
       </body>
     </html>
   )

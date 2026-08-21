@@ -33,7 +33,7 @@ export function Certifications() {
       <div className="container mx-auto max-w-4xl">
         <div className="flex items-center gap-3 mb-8">
           <Award className="h-8 w-8 text-primary" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Certificaciones</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Certificados</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

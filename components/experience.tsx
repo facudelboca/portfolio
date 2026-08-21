@@ -33,7 +33,7 @@ export function Experience() {
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center gap-3 mb-12">
           <Briefcase className="h-8 w-8 text-primary" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Experiencia Laboral</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Experiencia</h2>
         </div>
 
         <div className="relative border-l border-border ml-3 md:ml-6 pl-6 md:pl-10 space-y-12">

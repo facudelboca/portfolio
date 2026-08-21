@@ -1,5 +1,8 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, FileText } from "lucide-react"
+import posthog from "posthog-js"
 
 export function Hero() {
   return (
@@ -24,7 +27,12 @@ export function Hero() {
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-6 text-lg"
                 asChild
               >
-                <a href="#projects">Ver Proyectos</a>
+                <a 
+                  href="#projects" 
+                  onClick={() => posthog.capture('hero_cta_clicked', { target: 'projects' })}
+                >
+                  Ver Proyectos
+                </a>
               </Button>
               <Button
                 size="lg"
@@ -32,31 +40,54 @@ export function Hero() {
                 className="border-2 border-muted-foreground/30 hover:border-accent hover:text-accent font-semibold px-8 py-6 text-lg bg-transparent"
                 asChild
               >
-                <a href="#contact">Contactar Ahora</a>
+                <a 
+                  href="#contact" 
+                  onClick={() => posthog.capture('hero_cta_clicked', { target: 'contact' })}
+                >
+                  Contactar Ahora
+                </a>
               </Button>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-4">
               <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                <a href="https://github.com/facudelboca" target="_blank" rel="noopener noreferrer">
+                <a 
+                  href="https://github.com/facudelboca" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  onClick={() => posthog.capture('social_link_clicked', { platform: 'github', location: 'hero' })}
+                >
                   <Github className="h-6 w-6" />
                   <span className="sr-only">GitHub</span>
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                <a href="https://www.linkedin.com/in/facundodelboca" target="_blank" rel="noopener noreferrer">
+                <a 
+                  href="https://www.linkedin.com/in/facundodelboca" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  onClick={() => posthog.capture('social_link_clicked', { platform: 'linkedin', location: 'hero' })}
+                >
                   <Linkedin className="h-6 w-6" />
                   <span className="sr-only">LinkedIn</span>
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                <a href="mailto:facundodelboca@gmail.com">
+                <a 
+                  href="mailto:facundodelboca@gmail.com"
+                  onClick={() => posthog.capture('social_link_clicked', { platform: 'email', location: 'hero' })}
+                >
                   <Mail className="h-6 w-6" />
                   <span className="sr-only">Email</span>
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                <a href="/CV_Facundo_Del_Boca.pdf" target="_blank" rel="noopener noreferrer">
+                <a 
+                  href="/CV_Facundo_Del_Boca.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  onClick={() => posthog.capture('cv_download', { location: 'hero' })}
+                >
                   <FileText className="h-6 w-6" />
                   <span className="sr-only">CV</span>
                 </a>
