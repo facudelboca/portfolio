@@ -1,2 +1,7 @@
 allowBuilds:
+  core-js: set this to true or false
   sharp: set this to true or false
+minimumReleaseAgeExclude:
+  - '@posthog/core@1.48.8'
+  - '@posthog/types@1.405.1'
+  - posthog-js@1.418.10
