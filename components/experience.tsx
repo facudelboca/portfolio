@@ -1,46 +1,26 @@
+"use client"
+
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Briefcase } from "lucide-react"
-
-const experiences = [
-  {
-    title: "Desarrollador Backend Trainee",
-    company: "Kenility (Córdoba, Argentina)",
-    period: "Mayo 2026 - Agosto 2026",
-    description: [
-      "Participé en el proceso de migración de un sistema monolítico hacia una arquitectura de microservicios, integrando un equipo enfocado en un servicio específico del dominio.",
-      "Desarrollé y mantuve APIs REST, colaborando en la implementación de endpoints, resolución de bugs y tareas de refactorización.",
-      "Colaboré en la integración con bases de datos y en el aseguramiento de buenas prácticas de código dentro de un entorno de trabajo ágil."
-    ],
-    technologies: ["Java", "Spring Boot", "Microservicios", "APIs RESTful", "Bases de Datos", "Git", "Metodologías Ágiles"],
-  },
-  {
-    title: "Desarrollador Full Stack Freelance",
-    company: "Independiente",
-    period: "Septiembre 2025 - Marzo 2026",
-    description: [
-      "Sitio Web Corporativo (Empresa Constructora): Desarrollo y mantenimiento, implementando mejoras visuales y funcionales orientadas a la experiencia de usuario y optimización del sitio.",
-      "Sistema de Compras (Empresa Constructora): Diseño y desarrollo integral de un sistema interno desde cero. Construcción del backend con Java y Spring Boot, garantizando una API REST robusta y segura.",
-      "Plataforma E-commerce: Desarrollo Full Stack del cliente web e infraestructura backend sobre Firebase. Programación de flujos a medida y funciones serverless/cloud con Node.js."
-    ],
-    technologies: ["Java", "Spring Boot", "Node.js", "Firebase", "APIs RESTful", "React", "Javascript", "HTML", "CSS", "Git"],
-  }
-]
+import { useLanguage } from "@/context/language-context"
 
 export function Experience() {
+  const { t } = useLanguage()
+
   return (
     <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto max-w-3xl">
         <div className="flex items-center gap-3 mb-12">
-          <Briefcase className="h-8 w-8 text-primary" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Experiencia</h2>
+          <Briefcase className="h-8 w-8 text-accent" />
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">{t.experience.title}</h2>
         </div>
 
         <div className="relative border-l border-border ml-3 md:ml-6 pl-6 md:pl-10 space-y-12">
-          {experiences.map((exp, index) => (
+          {t.experience.items.map((exp, index) => (
             <div key={index} className="relative group">
               {/* Timeline marker with Briefcase icon */}
-              <div className="absolute left-0 -translate-x-1/2 top-1.5 p-2 rounded-full bg-card border border-border group-hover:border-primary text-muted-foreground group-hover:text-primary transition-all duration-300 shadow-sm z-10">
+              <div className="absolute left-0 -translate-x-1/2 top-1.5 p-2 rounded-full bg-card border border-border group-hover:border-accent text-muted-foreground group-hover:text-accent transition-all duration-300 shadow-sm z-10">
                 <Briefcase className="h-4 w-4" />
               </div>
 
@@ -49,7 +29,14 @@ export function Experience() {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-foreground">{exp.title}</h3>
-                    <p className="text-lg text-muted-foreground">{exp.company}</p>
+                    <div className="flex flex-wrap items-center gap-2 mt-1">
+                      <p className="text-lg text-muted-foreground">{exp.company}</p>
+                      {exp.roleType && (
+                        <Badge variant="outline" className="text-xs border-accent/40 text-accent bg-accent/10 font-medium px-2 py-0.5">
+                          {exp.roleType}
+                        </Badge>
+                      )}
+                    </div>
                   </div>
                   <span className="text-sm font-medium text-muted-foreground whitespace-nowrap bg-muted px-2.5 py-1 rounded-md self-start sm:self-auto border">
                     {exp.period}

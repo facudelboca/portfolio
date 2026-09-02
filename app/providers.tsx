@@ -4,6 +4,7 @@ import posthog from "posthog-js"
 import { PostHogProvider } from "posthog-js/react"
 import { useEffect, Suspense } from "react"
 import { usePathname, useSearchParams } from "next/navigation"
+import { LanguageProvider } from "@/context/language-context"
 
 const hasKey = typeof window !== "undefined" && !!process.env.NEXT_PUBLIC_POSTHOG_KEY
 
@@ -48,8 +49,10 @@ export function PostHogPageview() {
 }
 
 export function PHProvider({ children }: { children: React.ReactNode }) {
+  const content = <LanguageProvider>{children}</LanguageProvider>
   if (!hasKey) {
-    return <>{children}</>
+    return content
   }
-  return <PostHogProvider client={posthog}>{children}</PostHogProvider>
+  return <PostHogProvider client={posthog}>{content}</PostHogProvider>
 }
+
