@@ -70,7 +70,7 @@ export const translations = {
       bio: "Especializado en el diseño y desarrollo de APIs robustas, arquitecturas escalables y soluciones de software utilizando Java (Spring Boot) y Node.js.",
       viewProjects: "Ver Proyectos",
       contactMe: "Contactar Ahora",
-      cvUrl: "/CV_Facundo_Del_Boca.pdf",
+      cvUrl: "/CV_Facundo_Del_Boca_Backend_Developer.pdf",
       cvTitle: "Descargar CV (Español)",
     },
     about: {
