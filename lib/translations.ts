@@ -151,6 +151,12 @@ export const translations = {
           credentialUrl: "https://www.udemy.com/certificate/UC-87d67d79-25be-4a23-aef5-6f8c53bc0055/",
         },
         {
+          name: "Cloud Practitioner Essentials",
+          issuer: "Amazon Web Services",
+          date: "2026",
+          credentialUrl: "/Certificate.pdf",
+        },
+        {
           name: "Introducción a la Ciberseguridad",
           issuer: "Cisco",
           date: "2025",
@@ -369,6 +375,12 @@ export const translations = {
           issuer: "Udemy",
           date: "2025",
           credentialUrl: "https://www.udemy.com/certificate/UC-87d67d79-25be-4a23-aef5-6f8c53bc0055/",
+        },
+        {
+          name: "Cloud Practitioner Essentials",
+          issuer: "Amazon Web Services",
+          date: "2026",
+          credentialUrl: "/Certificate.pdf",
         },
         {
           name: "Introduction to Cybersecurity",
